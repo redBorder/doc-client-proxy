@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "manual.ent">
+<!ENTITY PRODUCT "Documentation">
+<!ENTITY BOOKID "manual">
+<!ENTITY YEAR "2016">
+<!ENTITY HOLDER "Eneo Tecnología S.L. |">
+]>
+<chapter>
+	<title>Client Proxy Installation and redborder Live Registration</title>	
+	<section>
+		<title>Requirements</title>
+		<para>redBorder client proxy is a software that has minimum requirements in order to function correctly.The minimum essential elements required for installation 
+		as well as those recommended for correct performance. They are shown in the following chart:</para> 
+		<note>
+			<title>Installation requirements</title>
+			<para><emphasis role="bold">Minimum requirements</emphasis></para>
+			<itemizedlist mark="bullet">
+				<listitem>
+					<para>RAM 1GB</para>
+				</listitem>
+				<listitem>
+					<para>Processor: 1 core</para>
+				</listitem>
+				<listitem>
+					<para>HD 16GB</para>
+				</listitem>
+			</itemizedlist>	
+			<para><emphasis role="bold">Recommended requirements</emphasis></para>
+			<itemizedlist mark="bullet">
+				<listitem>
+					<para>RAM 2GB</para>
+				</listitem>
+				<listitem>
+					<para>Processor: 2 cores</para>
+				</listitem>
+				<listitem>
+					<para>HD 32GB</para>
+				</listitem>
+			</itemizedlist>		
+		</note>
+    </section>
+    
+    <section>
+		<title>Downloading the ISO</title>
+		<para><emphasis role="bold">In order to download the ISO image, we must be registered on the web.</emphasis> Once we are logged in to the redborder web, we must go to 
+		<emphasis>Community -> Downloads</emphasis> following this link <ulink url="https://redborder.com/downloads/"></ulink></para>
+		<para>On this page we will find all of the redborder editions along with their corresponding specifications and characteristics.</para>
+		<para>To download the redborder client Proxy, click on DOWNLOAD in the redborder Client proxy section:</para>
+		<mediaobject>
+			<imageobject>
+				<imagedata scalefit="1" align="center" width="350" fileref="images/ch01_img001.png"/>
+            </imageobject>
+			<caption>
+				<para>Downloading the ISO</para>
+			</caption>
+        </mediaobject>
+     </section>
+      
+	 <section>
+		<title>Burning the ISO Image</title>
+		<para>The ISO image is prepared to perform the boot from a DVD reader, USB device or as an ISO file for a virtual machine.
+		In order to burn the ISO image from a Linux system to a USB device, the following command needs to be used if the USB device is mapped in <literal>/dev/sdd:</literal></para>
+		<para><screen>[root@machine ~]# dd if=redBorder-3.1.68-2-x86_64-6.5-proxy.iso of=/dev/sdd bs=10M</screen></para>
+	</section>
+		
+	<section>
+		<title>Installing the ISO</title>
+		<para>Once we have booted the redborder ISO, we will see the installation menu. To perform the installation, select the option <emphasis>Install Client Proxy:</emphasis></para>
+		<mediaobject>
+			<imageobject>
+				<imagedata scalefit="1" align="center" width="450" fileref="images/ch01_img002.png"/>
+            </imageobject>
+			<caption>
+				<para>Installing the ISO</para>
+			</caption>
+        </mediaobject>
+        <para>Once in the installation process, the user only needs to confirm the installation destination and root password. 
+        redborder is prepared for unattended installations and so <emphasis role="bold">we should be especially careful with the time 
+        we have to respond to these three questions if we wish to modify the default options:</emphasis></para>
+		<mediaobject>
+			<imageobject>
+				<imagedata scalefit="1" align="center" width="450" fileref="images/ch01_img003.png"/>
+            </imageobject>
+			<caption>
+				<para>Selecting the disk to install on</para>
+			</caption>
+        </mediaobject>
+        <para>Once this page has been confirmed, the installation will carry out all of the necessary processes to prepare the system for configuration.
+		By default, <emphasis role="bold">the root password will be redborder.</emphasis></para>
+	</section>
+		
+	<section>
+		<title>Basic Configuration</title>
+		<para>Upon completing the installation process, we can enter the system with the root user and password (redborder by default):</para>
+		
+		<mediaobject>
+			<imageobject>
+				<imagedata scalefit="1" align="center" width="450" fileref="images/ch01_img004.png"/>
+            </imageobject>
+			<caption>
+				<para>Login</para>
+			</caption>
+        </mediaobject>
+      
+      </section>
+      
+      <section>
+		  <title>Registering the redborder client proxy in redborder Live</title>
+		  <para>In order to register the sensor in redborder Live, we must have a redborder account. </para>
+		  <para>In order to register in redborder Live, we must access: <ulink url="https://www.redborder.com/"></ulink>. Click on try redborder, in the upper right of the screen.</para>
+		  
+		   <mediaobject>
+				<imageobject>
+					<imagedata scalefit="1" align="center" width="450" fileref="images/ch01_img005.png"/>
+				</imageobject>
+				<caption>
+					<para>Try redborder</para>
+				</caption>
+			</mediaobject>
+			
+			<para>Fill out the form and click on <emphasis>Register</emphasis>. We will need to confirm the email in order to finish the process.</para>
+			
+			<mediaobject>
+				<imageobject>
+					<imagedata scalefit="1" align="center" width="450" fileref="images/ch01_img006.png"/>
+				</imageobject>
+				<caption>
+					<para>Register on the web</para>
+				</caption>
+			</mediaobject>
+			
+			<para>Now, we must go the redborder Live login page. The link for this page is: <ulink url="https://live.redborder.com/"></ulink>.
+			 We will log in with the same email address and password that we used in the registration.</para>
+			 
+			 <mediaobject>
+				<imageobject>
+					<imagedata scalefit="1" align="center" width="450" fileref="images/ch01_img007.png"/>
+				</imageobject>
+				<caption>
+					<para>Log in in redborder Live</para>
+				</caption>
+			</mediaobject>
+			
+			<para>Go to Sensors and press <literal>+ Claim Sensor</literal>:</para>
+			
+			<mediaobject>
+				<imageobject>
+					<imagedata scalefit="1" align="center" width="450" fileref="images/ch01_img008.png"/>
+				</imageobject>
+				<caption>
+					<para>Claim sensor</para>
+				</caption>
+			</mediaobject>
+			
+			<para>A pop-up window will appear where we must enter a name for the sensor and paste the UUID that we copied before in the field below.</para>
+			
+			<mediaobject>
+				<imageobject>
+					<imagedata scalefit="1" align="center" width="350" fileref="images/ch01_img009.png"/>
+				</imageobject>
+				<caption>
+					<para>Enter the name and UUID of your sensor</para>
+				</caption>
+			</mediaobject>
+			
+			<para>Click on <literal>Save</literal> and wait until the sensor is configured correctly. We can then verify that the sensor is working in redborder Live.</para>
+			
+			<mediaobject>
+				<imageobject>
+					<imagedata scalefit="1" align="center" width="450" fileref="images/ch01_img010.png"/>
+				</imageobject>
+				<caption>
+					<para>Sensor registered and claimed</para>
+				</caption>
+			</mediaobject>
+			
+      </section>
+      
+      <section>
+		  <title>Add a Flow sensor</title>
+		  <para>To add a flow sensor must click on the <literal>Edit button -> Add sensor -> Flow</literal>:</para>
+		  
+		  <mediaobject>
+				<imageobject>
+					<imagedata scalefit="1" align="center" width="450" fileref="images/ch01_img011.png"/>
+				</imageobject>
+				<caption>
+					<para>Adding a Flow sensor</para>
+				</caption>
+			</mediaobject>
+			
+			<para>A pop-up window then appears which asks us for a name and the IP address from which the flow of data is being received:</para>
+			
+			 <mediaobject>
+				<imageobject>
+					<imagedata scalefit="1" align="center" width="450" fileref="images/ch01_img012.png"/>
+				</imageobject>
+				<caption>
+					<para>Create a new Flow sensor</para>
+				</caption>
+			</mediaobject>
+			
+			<para>By going to the upper FLOW tab, we can verify that the traffic that was initially receiving the Client Proxy is now classified as Sensor Flow. 
+			Once we have created the different flow sensors, the traffic can be viewed separately:</para>
+			
+			<mediaobject>
+				<imageobject>
+					<imagedata scalefit="1" align="center" width="450" fileref="images/ch01_img013.png"/>
+				</imageobject>
+				<caption>
+					<para>View Flow events</para>
+				</caption>
+			</mediaobject>	
+			
+      </section>
+      		
+</chapter>

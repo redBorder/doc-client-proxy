@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+     <section>
+		<title>We would like your opinion</title>
+		<para>If you find any errors in this manual, we welcome your suggestions. In the case of a typographical or conceptual error, you can submit it by email including the following information: </para>  
+        <para>Manual's identifier: <emphasis>Installation_ClientProxy-rbLive-v.3 [EN](201509)</emphasis>, chapter or section and page number, including the fragment of text that contains the said error.</para>
+        <para>This information allows us to easily locate the error and and rectify it in order to improve the documentation that accompanies our products.</para>
+        <para>We also appreciate any suggestion related to the organization or display of the information that helps us to optimize our manuals.</para>
+        <para>Always consult the latest version of the documentation available at: <emphasis role="bold">http://support.redborder.net</emphasis></para>
+        <para>Comments can be sent to the following email address: <email>info@redborder.net</email></para>
+        <important>
+			<title>ENEO Tecnología S.L.</title>
+			<address>
+				<street>Plaza de las Naciones, Torre Norte (Aljarafe Center Building). Floor 12.</street>
+				<city>Mairena del Aljarafe</city>
+                <state>Seville</state>
+                <postcode>41927</postcode>
+                <phone> +34 955 60 11 60</phone>
+                <country>Spain</country>
+                <email>info@redborder.net</email> 
+            </address>
+        </important>
+    </section>

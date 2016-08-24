@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "manual.ent">
+%BOOK_ENTITIES;
+]>
+<appendix id="appe-manual-Revision_History">
+	<title>Revision History</title>
+	<simpara>
+		<revhistory>
+			<revision>
+				<revnumber>0.1-1</revnumber>
+				<date>August 2016</date>
+				<author>
+					<firstname>Eneo Tecnología</firstname>
+					<email>info@redborder.com</email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>IPS Quick Installation Guide for redborder Live</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+		</revhistory>
+	</simpara>
+</appendix>
+
