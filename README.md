@@ -1,5 +1,9 @@
 # Client Proxy Installation Guide
 
+[![Download IPS Quick Guide PDF](https://img.shields.io/badge/PDF--EN-CLIENT--PROXY--v0.1-0--red.svg)](https://github.com/redBorder/doc-client-proxy/releases/download/0.1-1/Client_Proxy-1-Quick_installation_guide-en-US.pdf)
+[![Download IPS enterprise version](https://img.shields.io/badge/html.tgz--EN-CLIENT--PROXY--v0.1-0--red.svg)](https://github.com/redBorder/doc-client-proxy/releases/download/0.1-1/Client_Proxy-1-Quick_installation_guide-en-US.tgz)
+[![Download IPS enterprise version](https://img.shields.io/badge/html.zip--EN-CLIENT--PROXY--v0.1-0--red.svg)](https://github.com/redBorder/doc-client-proxy/releases/download/0.1-1/Client_Proxy-1-Quick_installation_guide-en-US.zip)
+
 [![logo](https://redborder.com/media/download/553)](https://redborder.com/trial)
 
 En esta guía encontrarás explicados los pasos que se deben seguir para asociar un Client Proxy a redborder Live y de ese modo, poder recibir los datos a través de él.
