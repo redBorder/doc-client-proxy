@@ -421,7 +421,7 @@ To use this License in a document you have written, include a copy of
 the License in the document and put the following copyright and
 license notices just after the title page:
 
-        Copyright (C)  YEAR  YOUR NAME.
+        Copyright (C)  2023  Eneo Tecnología SL.
         Permission is granted to copy, distribute and/or modify this document
         under the terms of the GNU Free Documentation License, Version 1.3
         or any later version published by the Free Software Foundation;
